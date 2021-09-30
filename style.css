@@ -1,0 +1,367 @@
+body {  
+    background: linear-gradient(359.75deg , #8489FF 0.23%, #2faee9 99.79%);
+    height: 1029px;
+    
+}
+
+/*p {
+    margin: 0px;
+}*/
+p {
+    margin: 0px;
+}
+#logo {
+    color: #FFFFFF;
+    font-size: 34.375px;
+    line-height: 43px;
+    font-weight: bold;
+    width: 176px;
+    height: 42.62px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Quicksand', sans-serif;
+    position: absolute;
+    left: 135px;
+    top: 53px;
+
+}
+
+#comercial {
+    color: #dfaa79;
+}
+
+#textos {
+    position: absolute;
+    left: 135px;
+    top: 238px;
+}
+
+#texto1 {
+    color: #FFFFFF;
+    font-size: 78px;
+    line-height: 133%;
+    letter-spacing: 0.025em;
+    width: 521.13px;
+    height: 191.04;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+#texto2 {
+
+    color: #FFFFFF;
+    font-size: 20.2852px;
+    line-height: 170%;
+    letter-spacing: 0.015em;
+    font-family: 'Montserrat', sans-serif;
+    width: 543.05px;
+    height: 102.89px;
+    position: absolute;
+    font-style: normal;
+    font-weight: 500;
+/* or 34px */
+    left: 1px;
+}
+
+#menu {
+    color: #FFFFFF;
+     list-style-type: none ;
+     margin: 0px;
+     padding: 0px;
+     position: absolute;
+     left: 435px;
+     top: 60px;
+     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+     width: 570px;
+   /*border-style: solid;/*
+   
+     /* CSS Flexbox*/
+     display: flex;
+     flex-direction: row;
+     justify-content: space-evenly;
+ }
+
+ li {
+    /*display: inline;*/
+    /*position: absolute;*/
+  }
+  #home {
+      font-style: normal;
+      font-family: 'Montserrat', sans-serif;
+  }
+  #about {
+     /* width: 120.67px;*/
+     /* margin-left: 44.15px;*/
+     font-family: 'Montserrat', sans-serif;
+     font-style: normal;
+  
+  }
+  
+  #contact {
+     /*width: 241.34px;*/
+     /*margin-left: 43.17px;*/
+     font-family: 'Montserrat', sans-serif;
+     font-style: normal;
+  
+  }
+  
+  #blog {
+     /*width: 386286px;*/
+     /*margin-left: 55;*/
+     font-family: 'Montserrat', sans-serif;
+  
+  }
+  
+  #videos {
+     /*width: 120.67px;*/
+     /*margin-left: 45;*/
+     font-family: 'Montserrat', sans-serif;
+  
+  }
+
+#phone-number {
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 19.2045px;
+    line-height: 23px;
+    position: absolute;
+    left: 33px;
+}
+
+#phone-icon {
+    position: absolute;
+    width: 19px;
+    height: 19px;
+    top: 3px;
+
+}
+
+#phone {
+    position: absolute;
+    left: 1102px;
+    top: 63px;
+
+}
+
+
+#facebook-icon {
+    width: 10.75px;
+    height: 21.29px;
+    
+}
+
+#twitter-icon {
+    position: absolute;
+    width: 21.29px;
+    height: 17.43px;
+    left: 48.75px;
+    top: 2.13px;
+}
+
+#linkedin-icon{
+    position: absolute;
+    width: 21.29px;
+    height: 21.29px;
+    left: 108.04px;
+    top: 0px;
+}
+
+#social{
+position: absolute;
+left: 1175px;
+top: 843px;
+
+}
+
+#bnt-start {
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 26px;
+    
+    position: absolute;
+    width: 298px;
+    height: 56.43px;
+    left: 135px;
+    top: 617px;
+    
+    border-style: none;
+    border-radius: 88.1657px;
+    background: linear-gradient(93.7deg, #EED761 21.68%, #FFB9AF 79.85%);
+    box-shadow: 0px 3.52663px 35.2663px rgba(255, 185, 175, 0.5);
+}
+
+#imagens {
+    position: absolute;
+    width: 794px;
+    height: 795px;
+    left: 646px;
+    top: 191px;
+}
+
+#img-palmeira {
+    width: 855px;
+    height: 855px;
+   position: absolute;
+    z-index: 2;
+}
+#img-nuvem1 {
+    width: 468px;
+    height: 195px;
+    position: absolute;
+    left: 326px;
+    top: 0px;
+    opacity: 1.4;
+    z-index: 1;
+}
+#img-nuvem2 {
+     width: 468px;
+    height: 195px;
+    position: absolute;
+    left: 17px;
+    top: 285px;
+    opacity: 1.4;
+    z-index: 1;
+}
+#img-elipse {
+    width: 646px;
+    height: 646px;
+    position: absolute;
+    left: 74px;
+    top: 28px;
+    z-index: 0;
+    background: #FFFFFF;
+    opacity: 2.8;
+    filter: blur(250px);
+}
+
+#cards {
+    position: absolute;
+    left: 135px;
+    top: 851px;
+}
+
+#card1 {
+    background: #FAFAFA;
+    width: 239px;
+    height: 169px;
+    border-radius: 7px;
+}
+
+#img-arrow1{
+    position: absolute;
+    width: 15.43px;
+    height: 15.43px;
+    left: 136px;
+    top: 2.29px;
+}
+
+#frame1{
+    position: absolute;
+    left: 24px;
+    top: 20px;
+}
+
+#card1-texto {
+    color: #122330;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 510;
+    font-size: 16.0714px;
+    line-height: 20px;
+}
+
+#img-hawaii {
+    width: 198px;
+    height: 76px;
+    border-radius: 2px;
+    position: absolute;
+    left: 20px;
+    top: 52px;
+}
+
+#card2 {
+    position: absolute;
+    background: #FAFAFA;
+    width: 239px;
+    height: 169px;
+    border-radius: 7px;
+    left: 265px;
+    top: 0px;
+    
+}
+
+#img-arrow2{
+    position: absolute;
+    width: 15.43px;
+    height: 15.43px;
+    left: 136px;
+    top: 2.29px;
+}
+
+
+#frame2{
+    position: absolute;
+    left: 24px;
+    top: 20px;
+}
+
+#card2-texto {
+    color: #122330;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 510;
+    font-size: 16.0714px;
+    line-height: 20px;
+}
+
+#img-cyprus {
+    width: 198px;
+    height: 76px;
+    border-radius: 2px;
+    position: absolute;
+    left: 20px;
+    top: 52px;
+}
+
+#card3 {
+    position: absolute;
+    background: #FAFAFA;
+    width: 239px;
+    height: 169px;
+    border-radius: 7px;
+    left: 530px;
+    top: 0px;
+
+}
+
+#img-arrow3{
+    position: absolute;
+    width: 15.43px;
+    height: 15.43px;
+    left: 136px;
+    top: 2.29px;
+}
+
+
+#frame3{
+    position: absolute;
+    left: 24px;
+    top: 20px;
+}
+
+#card3-texto {
+    color: #122330;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 510;
+    font-size: 16.0714px;
+    line-height: 20px;
+}
+
+#img-bali {
+    width: 198px;
+    height: 76px;
+    border-radius: 2px;
+    position: absolute;
+    left: 20px;
+    top: 52px;
+}
